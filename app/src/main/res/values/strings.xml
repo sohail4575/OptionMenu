@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OptionMenu</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="click_me">Click Me</string>
+    <string name="click_on_the_three_dots_above_on_the_action_bar_to_see_option_menu">click on the three dots above on the action bar to see option menu</string>
+    <string name="settings">SETTINGS</string>
+    <string name="about">ABOUT</string>
+    <string name="exit">EXIT</string>
+    <string name="Red">Red</string>
+    <string name="Blue">Blue</string>
+    <string name="Green">Green</string>
+    <string name="Click_me">Click Me</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/back"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/main_menu"
+        style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
+        android:backgroundTint="#FF9800"
+        app:title="Kotlin for Android"
+        android:id="@+id/tool"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click On the three dots above on the action bar to see option menu"
+        android:layout_margin="16dp"
+        android:textSize="25dp"
+        android:textColor="#777272"
+
+        />
+
+</LinearLayout>
